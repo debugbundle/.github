@@ -1,8 +1,6 @@
 # DebugBundle
 
-DebugBundle turns production failures into deterministic debugging artifacts that engineers and coding agents can inspect, reproduce, and act on. It captures errors, request context, logs, runtime details, deploy metadata, probes, and related signals, then packages that context into a versioned debug bundle for incident triage and automation.
-
-Use DebugBundle locally while building, connect it to hosted ingestion for team workflows, or wire it into agents through the API, CLI, MCP server, webhooks, alerts, weekly reports, and GitHub automation.
+DebugBundle captures runtime failures, groups them into incidents, and publishes deterministic debug bundles for humans and AI agents.
 
 ## Start here
 
@@ -15,18 +13,22 @@ Use DebugBundle locally while building, connect it to hosted ingestion for team 
 
 ## SDKs
 
-| Runtime | Repository |
-| --- | --- |
-| Python | [`debugbundle-python`](https://github.com/debugbundle/debugbundle-python) |
-| PHP | [`debugbundle-php`](https://github.com/debugbundle/debugbundle-php) |
-| WordPress | [`debugbundle-wordpress`](https://github.com/debugbundle/debugbundle-wordpress) |
-| Java | [`debugbundle-java`](https://github.com/debugbundle/debugbundle-java) |
-| Go | [`debugbundle-go`](https://github.com/debugbundle/debugbundle-go) |
-| Ruby | [`debugbundle-ruby`](https://github.com/debugbundle/debugbundle-ruby) |
-| Android | [`debugbundle-android`](https://github.com/debugbundle/debugbundle-android) |
-| Swift | [`debugbundle-swift`](https://github.com/debugbundle/debugbundle-swift) |
-| React Native | [`debugbundle-react-native`](https://github.com/debugbundle/debugbundle-react-native) |
-| .NET | [`debugbundle-dotnet`](https://github.com/debugbundle/debugbundle-dotnet) |
+All SDKs follow the same universal interface: `init`, `captureException`, `captureError`, `captureLog`, `captureRequest`, `captureMessage`, `setContext`, `probe`, and `flush`.
+
+| Runtime | Package | Repository |
+| --- | --- | --- |
+| Node.js | `@debugbundle/sdk-node` | [`debugbundle-js`](https://github.com/debugbundle/debugbundle-js) |
+| Browser | `@debugbundle/sdk-browser` | [`debugbundle-js`](https://github.com/debugbundle/debugbundle-js) |
+| Python | `debugbundle-python` | [`debugbundle-python`](https://github.com/debugbundle/debugbundle-python) |
+| PHP | `debugbundle/sdk-php` | [`debugbundle-php`](https://github.com/debugbundle/debugbundle-php) |
+| Java | `com.debugbundle:debugbundle-spring-boot-starter` | [`debugbundle-java`](https://github.com/debugbundle/debugbundle-java) |
+| .NET | `DebugBundle.AspNetCore` / `DebugBundle.Sdk` | [`debugbundle-dotnet`](https://github.com/debugbundle/debugbundle-dotnet) |
+| Go | `github.com/debugbundle/debugbundle-go` | [`debugbundle-go`](https://github.com/debugbundle/debugbundle-go) |
+| Ruby | `debugbundle` | [`debugbundle-ruby`](https://github.com/debugbundle/debugbundle-ruby) |
+| Android | `com.debugbundle:debugbundle-android` | [`debugbundle-android`](https://github.com/debugbundle/debugbundle-android) |
+| Swift | `DebugBundle` | [`debugbundle-swift`](https://github.com/debugbundle/debugbundle-swift) |
+| React Native | `@debugbundle/sdk-react-native` | [`debugbundle-react-native`](https://github.com/debugbundle/debugbundle-react-native) |
+| WordPress | `debugbundle-wordpress` | [`debugbundle-wordpress`](https://github.com/debugbundle/debugbundle-wordpress) |
 
 ## Interfaces
 
