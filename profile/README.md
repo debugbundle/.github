@@ -1,15 +1,31 @@
 # DebugBundle
 
-DebugBundle captures runtime failures, groups them into incidents, and publishes deterministic debug bundles for humans and AI agents.
+DebugBundle turns runtime failures, critical-path issues, and availability checks into incidents with full context, alerts, remote probes, and deterministic debug bundles for humans and AI agents.
 
 ## Start here
 
-| Repository | What it contains |
-| --- | --- |
-| [`debugbundle`](https://github.com/debugbundle/debugbundle) | Core product source: API, worker, web app, CLI, MCP server, storage, bundle generation, alerts, billing, and email templates. |
-| [`site`](https://github.com/debugbundle/site) | Public website, documentation, blog, API/schema artifacts, and launch content. |
-| [`debugbundle-js`](https://github.com/debugbundle/debugbundle-js) | JavaScript SDKs for Node.js and browsers. |
-| [`action`](https://github.com/debugbundle/action) | Reference GitHub Action for incident automation workflows. |
+<table>
+  <thead>
+    <tr>
+      <th align="left" width="30%">Repository</th>
+      <th align="left">What it contains</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/debugbundle/debugbundle"><code>debugbundle</code></a></td>
+      <td>Core product source: API, worker, web app, CLI, MCP server, storage, bundle generation, alerts, billing, and email templates.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/debugbundle/site"><code>site</code></a></td>
+      <td>Public website, documentation, blog, API/schema artifacts, and launch content.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/debugbundle/debugbundle-js"><code>debugbundle-js</code></a></td>
+      <td>JavaScript SDKs for Node.js and browsers.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## SDKs
 
