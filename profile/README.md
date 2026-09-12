@@ -57,3 +57,7 @@ All SDKs follow the same universal interface: `init`, `captureException`, `captu
 
 - Website and docs: [`debugbundle.com`](https://debugbundle.com)
 - Core repository: [`github.com/debugbundle/debugbundle`](https://github.com/debugbundle/debugbundle)
+
+## License
+
+The public core, SDKs, and developer tools use Apache-2.0. The WordPress plugin uses GPL-2.0-or-later. Documentation, examples, and generated references are public and Apache-2.0; website implementation and hosted operations are private.
