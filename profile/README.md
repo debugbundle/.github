@@ -60,4 +60,4 @@ All SDKs follow the same universal interface: `init`, `captureException`, `captu
 
 ## License
 
-The public core, SDKs, and developer tools use Apache-2.0. The WordPress plugin uses GPL-2.0-or-later. Documentation, examples, and generated references are public and Apache-2.0; website implementation and hosted operations are private.
+The public core, SDKs, and developer tools use Apache-2.0. Service-required exceptions are the WordPress plugin (GPL-2.0-or-later) and portable ClawHub/Smithery instruction skill (MIT-0). Documentation, examples, and generated references are public and Apache-2.0; website implementation and hosted operations are private.
