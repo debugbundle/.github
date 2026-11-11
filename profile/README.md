@@ -17,10 +17,6 @@ DebugBundle turns runtime failures, critical-path issues, and availability check
       <td>Core product source: API, worker, web app, CLI, MCP server, storage, bundle generation, alerts, billing, and email templates.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/debugbundle/site"><code>site</code></a></td>
-      <td>Public website, documentation, blog, API/schema artifacts, and launch content.</td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/debugbundle/debugbundle-js"><code>debugbundle-js</code></a></td>
       <td>JavaScript SDKs for Node.js and browsers.</td>
     </tr>
