@@ -25,7 +25,7 @@ DebugBundle turns runtime failures, critical-path issues, and availability check
 
 ## SDKs
 
-All SDKs follow the same universal interface: `init`, `captureException`, `captureError`, `captureLog`, `captureRequest`, `captureMessage`, `setContext`, `probe`, and `flush`.
+All SDKs follow the same universal interface, using language-idiomatic method names: `init`, `captureException`, `captureError`, `captureLog`, `captureRequest`, `captureMessage`, `setContext`, `probe`, and `flush`.
 
 | Runtime | Package | Repository |
 | --- | --- | --- |
@@ -33,6 +33,7 @@ All SDKs follow the same universal interface: `init`, `captureException`, `captu
 | Browser | `@debugbundle/sdk-browser` | [`debugbundle-js`](https://github.com/debugbundle/debugbundle-js) |
 | Python | `debugbundle-python` | [`debugbundle-python`](https://github.com/debugbundle/debugbundle-python) |
 | PHP | `debugbundle/sdk-php` | [`debugbundle-php`](https://github.com/debugbundle/debugbundle-php) |
+| Rust | [`debugbundle`](https://crates.io/crates/debugbundle/1.0.0) | [`debugbundle-rust`](https://github.com/debugbundle/debugbundle-rust) |
 | Java | `com.debugbundle:debugbundle-spring-boot-starter` | [`debugbundle-java`](https://github.com/debugbundle/debugbundle-java) |
 | .NET | `DebugBundle.AspNetCore` / `DebugBundle.Sdk` | [`debugbundle-dotnet`](https://github.com/debugbundle/debugbundle-dotnet) |
 | Go | `github.com/debugbundle/debugbundle-go` | [`debugbundle-go`](https://github.com/debugbundle/debugbundle-go) |
